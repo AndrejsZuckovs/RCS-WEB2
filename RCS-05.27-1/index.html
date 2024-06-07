@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="lv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      :root {
+        --primary-color: #00ff5e;
+      }
+      .cookie-banner {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        bottom: 30px;
+        background-color: black;
+        color: white;
+        /* padding: 20px; */
+        margin: 20px;
+        border-radius: 10px;
+      }
+      button {
+        background-color: white;
+        width: 200px;
+        height: 40px;
+        border-radius: 5px;
+        font-weight: 600;
+      }
+      .card-container {
+        gap: 20px;
+        display: flex;
+        /* justify-content: center;
+        padding: 10px;
+        margin: 20px; */
+        gap: 20px;
+      }
+      .card {
+        width: 300px;
+        background-color: var(--primary-color);
+        padding: 20px;
+      }
+      .card img {
+        width: 100%;
+      }
+      .card button {
+        width: 100%;
+      }
+      .chip-container {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+      }
+      .chip {
+        display: flex;
+        justify-content: center;
+        background-color: aliceblue;
+        width: 50%;
+        padding: 1px;
+        border-radius: 30px;
+      }
+      .btn-container {
+        margin-top: 10px;
+        /* display: flex;
+        align-items: center;
+        align-content: center; */
+      }
+      .btn-container a {
+        background-color: white;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+      }
+      @media (max-width: 600px) {
+        /* body {
+          background-color: red;
+        } */
+        .card-container {
+          flex-direction: column;
+        }
+        .cookie-banner {
+          text-align: center;
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="card-container">
+      <div class="card">
+        <img
+          src="https://images.pexels.com/photos/24829814/pexels-photo-24829814/free-photo-of-black-and-white-photograph-of-leaves-in-the-sun.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
+          alt="Lorem"
+        />
+
+        <h2>Nature</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni
+          voluptas animi inventore eos cumque facilis perferendis, alias id
+          laborum natus? Iure explicabo saepe vel voluptate quos veritatis optio
+          omnis in.
+        </p>
+        <div class="chip-container">
+          <div class="chip"><p>sun</p></div>
+          <div class="chip"><p>sun</p></div>
+        </div>
+        <div class="btn-container"><a href="">btn</a></div>
+
+        <!--// btn-->
+      </div>
+      <div class="card">
+        <img
+          src="https://images.pexels.com/photos/24829814/pexels-photo-24829814/free-photo-of-black-and-white-photograph-of-leaves-in-the-sun.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
+          alt="Lorem"
+        />
+
+        <h2>Nature</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni
+          voluptas animi inventore eos cumque facilis perferendis, alias id
+          laborum natus? Iure explicabo saepe vel voluptate quos veritatis optio
+          omnis in.
+        </p>
+        <div class="chip-container">
+          <div class="chip"><p>sun</p></div>
+          <div class="chip"><p>sun</p></div>
+        </div>
+        <div class="btn-container"><a href="">btn</a></div>
+
+        <!--// btn-->
+      </div>
+      <div class="card">
+        <img
+          src="https://images.pexels.com/photos/24829814/pexels-photo-24829814/free-photo-of-black-and-white-photograph-of-leaves-in-the-sun.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
+          alt="Lorem"
+        />
+
+        <h2>Nature</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni
+          voluptas animi inventore eos cumque facilis perferendis, alias id
+          laborum natus? Iure explicabo saepe vel voluptate quos veritatis optio
+          omnis in.
+        </p>
+        <div class="chip-container">
+          <div class="chip"><p>sun</p></div>
+          <div class="chip"><p>sun</p></div>
+        </div>
+        <div class="btn-container"><a href="">btn</a></div>
+
+        <!--// btn-->
+      </div>
+    </section>
+    <section>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+        cumque tempora, nobis repellat expedita et error delectus eos voluptates
+        natus numquam enim vitae sequi facere nemo ex labore ipsa obcaecati!
+      </p>
+    </section>
+    <div class="cookie-banner">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, vero
+        ducimus commodi a cum quos illum libero. Quod, dignissimos. A
+        perspiciatis repellat, tempore dicta alias magnam aperiam autem iure
+        doloribus?
+      </p>
+      <button onclick="">Piekrītu</button>
+    </div>
+  </body>
+</html>

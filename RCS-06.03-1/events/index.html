@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <h3>DOM</h3>
+    <p id="par">Hello World!</p>
+    <button id="btn">Change text</button>
+    <script>
+      function changeText() {
+        const parameter = document.getElementById("par");
+        parameter.innerHTML = "Hello JS";
+        parameter.style.color = "red";
+        console.log(document);
+        console.log(document.title);
+        document.title = "YES";
+      }
+      const button = document.getElementById("btn");
+
+      btn.addEventListener("click", changeText);
+      //   onclick="changeText()"
+    </script>
+  </body>
+</html>

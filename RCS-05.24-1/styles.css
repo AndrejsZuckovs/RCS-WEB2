@@ -1,0 +1,47 @@
+body {
+  background-color: beige;
+}
+/* nav */
+nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* . priekš class */
+.nav-links {
+  display: flex;
+  gap: 10px;
+}
+/* # priekš id*/
+
+.logo {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.hero {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+.hero-img {
+  width: 40%;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero-btn {
+  border: 2px solid black;
+  background-color: #666666;
+  width: 120px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
