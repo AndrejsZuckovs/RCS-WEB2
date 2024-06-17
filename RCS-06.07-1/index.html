@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RCS-06.07-1</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+      }
+      .btn-container {
+        position: fixed;
+        bottom: 200px;
+      }
+    </style>
+  </head>
+  <body id="body">
+    <img
+      id="img-rocket"
+      src="./images/rocket_4.avif"
+      alt="rocket"
+      width="200px"
+    />
+
+    <div class="btn-container">
+      <button id="btn-up">UP</button>
+      <button id="btn-down">DOWN</button>
+    </div>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>
